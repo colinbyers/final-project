@@ -1,0 +1,71 @@
+html {
+	 background-image: url("racetrack1.png");
+	 background-repeat: repeat;
+	 background-size: 600px, 400px;
+	 }
+
+h1 {
+     text-align: center;
+     }
+
+h2 {
+     text-align: center;
+     display: block;
+     }
+
+p {
+	text-align: center;
+}
+
+p1 {
+	top: 5px;
+}
+
+#res {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	}
+
+.img1 {
+	 position: absolute;
+	 top: 250px;
+	 left: 0px;
+	 }
+
+.img2 {
+	 position: absolute;
+	 top: 440px;
+	 left: 0px;
+	 }
+
+.img3 {
+	 position: absolute;
+	 top: 17px;
+	 left: 10px;
+	 }
+
+.img3:hover {
+transform: scale(1.1)
+}
+
+#fake, #racetimeF {
+	display: block;
+}
+
+#rd {
+color: red;
+display: inline;
+}
+
+#bl {
+color: blue;
+display: inline;
+}
+
+.win {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 64%;
+}

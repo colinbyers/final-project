@@ -1,0 +1,39 @@
+<!--
+   Colin Byers
+   CIS 370
+   -->
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+   <head>
+     <meta charset=utf-8">
+     <title>Great Race</title>
+     <link href="styles.css" rel="stylesheet"/>
+
+  </head>
+
+<body>
+  <h1>
+  WELCOME TO THE GREAT RACE
+    </h1>
+  <h2>
+    Today's Racers: <div id="rd"></div> + <div id="bl"></div>
+  </h2>
+    
+      <img class="img1" id="Red" src="CircleRed-PNG-File.png" alt="RED RACER" width="150" height="150">
+      <img class="img2" id="Blue" src="Circle-PNG-File.png" alt="BLUE RACER" width="150" height="150">
+      <img class="img3" id="stoplight" onclick="startRace(); changeImage();" src="red-stop-light-hi.png" alt="Stoplight" height="200">
+      <p>
+      Get ready to witness the event of a lifetime!! <strong>The Great Race</strong> will start when 
+      the stoplight is clicked.</p>
+      <p>
+      I hope you're ready for this!
+      </p>
+      <div id="raceTimef" ></div>
+      
+      <div class="win" id="winner" onclick="reset()"></div>
+</body>
+
+
+<script src="great.js"></script>
+</html>
